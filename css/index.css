@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.is-active {
+  background-color: #f00 !important;
+}
+
+canvas {
+  display: block;
+  border: solid 1px #000;
+  position: relative;
+  height: 500px;
+  margin: auto;
+}
+
+.btn-container {
+  margin: 10px;
+}
+
+.gravity-ctrl {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  margin: auto;
+}
+
+.ctrl-btn {
+  position: absolute;
+  margin: auto;
+  width: 60px;
+  height: 30px;
+}
+.ctrl-btn--top {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.ctrl-btn--bottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.ctrl-btn--left {
+  top: 35px;
+  left: 0;
+}
+.ctrl-btn--right {
+  top: 35px;
+  right: 0;
+}
+.ctrl-btn--zero {
+  top: 35px;
+  left: 0;
+  right: 0;
+}

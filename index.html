@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ball Reflection</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+  <div>
+    <h1>Ball Reflection</h1>
+    <div class="btn-container">
+      <button class="js-sound">sound off</button>
+      <button class="js-reset">Ball Reset</button>
+    </div>
+    <canvas id="canvasRect" class="center" width="640px" height="500px"></canvas>
+  </div>
+
+  <div class="gravity-ctrl btn-container">
+    <button class="ctrl-btn ctrl-btn--top js-btn" data-type="top">top</button>
+    <button class="ctrl-btn ctrl-btn--left js-btn" data-type="left">left</button>
+    <button class="ctrl-btn ctrl-btn--right js-btn" data-type="right">right</button>
+    <button class="ctrl-btn ctrl-btn--bottom js-btn is-active" data-type="bottom">bottom</button>
+    <button class="ctrl-btn ctrl-btn--zero js-btn" data-type="zero">0</button>
+  </div>
+
+  <script src="js/lib/jquery-2.1.0.min.js"></script>
+  <script src="js/ball_reflection.js"></script>
+</body>
+</html>
